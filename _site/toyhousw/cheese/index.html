@@ -1,0 +1,250 @@
+<!-- 
+ 
+ "Celeste" by nice♡ (toyhou.se/nice)
+ 
+୨୧.....................୨୧
+ 
+    ➳ NOTES:
+        ♡ You can use find and replace/CTRL + F to change the colors.
+        ♡ The HTML credit is located in the top right corner. You can move it to somewhere else visible but please do not remove it entirely.
+        ♡ Be sure not to remove the parentheses when you're replacing URLS for images to make sure that they work.
+        ♡ The only use of RGBA colors instead of hex colors is for the transparent portion of the gradient in the header. The others can be replaced using the list underneath this section.
+        ♡ Any of the icons can be replaced, including the icons on the edges of the character image, but make sure to keep the styling! The styling itself can be changed/adjusted, though.
+        ♡ If you replace the spinning icon, keep the fa-spin in the class section. The smaller star in the bottom left corner also acts as a credit if you hover over it. The credit text can be changed with the "title=" attribute.
+        ♡ If you remove text-transform:uppercase where it is used for places like the header  text, likes/dislikes label, etc. it will get rid of that styling if you prefer something else. 
+        ♡ Feel free to ask any questions in my thread! The rules can also be found there or on my page.
+ 
+୨୧.....................୨୧
+ 
+    ➳ COLORS:
+        ♡ Content Boxes:  #E9DFFF
+        ♡ Labels (ex: Name, Personality):  #8387FF
+        ♡ Primary Text:  #4F4C69
+        ♡ Dividers (ex: Horizontal lines, stars between traits):  #DAD8E9
+        ♡ Header Gradient: blue-  #8066BC  |  peach-  #FFEB9B  |  transparent-  rgba(0,0,0,0)
+        ♡ Header Text, Glow & HTML Credit:  #FFFFFF
+        ♡ Decorative Stars:  #FFDEBB
+        ♡ Decorative Stars Shadow:  #AE8DBC
+        ♡ Quote Box:  #BFB1DF
+        ♡ Quote Text:  #463B5F 
+-->
+ 
+<!-- ♡ Initial Container + Background Image - set to a repeating image by default ♡ -->
+<div class="container-fluid" style="max-width:900px; margin:auto; padding:8px; background: url(https://i.imgur.com/SpXMGtq.png) repeat fixed; border-radius:1em;">
+ 
+  <!-- ♡ Gradient Header - replace hex codes after "background:" selector to change ♡ -->
+  <div class="col row no-gutters mb-1" style="background:linear-gradient(90deg, #8066BC 0%, #FFEB9B 40%, rgba(0,0,0,0) 80%); margin:auto; padding:5px; border-radius:2em; display:flex; align-items:center; justify-content:space-between;">
+    <p style="font-size: 1.4em; margin:5px; text-transform:uppercase; letter-spacing:.2em; color:#FFFFFF; text-shadow: 0px 0px 10px #FFFFFF;">
+ 
+      <!-- ♡ Spinning Star Icon ♡ -->
+      <i class="fas fa-star fa-spin"></i>
+ 
+      <!-- ♡ Header Text ♡ -->
+      aries
+    </p>
+    <!-- ♡ Credit ♡ -->
+    <a href="https://toyhou.se/nice"><i class="far fa-heart tooltipster" style="position:relative; bottom:16px; font-size:.8em; color:#FFFFFF;" title="HTML by nice"></i></a>
+  </div>
+ 
+  <!-- ♡ Basic Info Container ♡ -->
+  <div class="row no-gutters">
+    <div class="col-lg-5 p-1">
+      <div class="p-1 pb-2" style="background-color:#E9DFFF; height:100%; border-radius:1em;">
+ 
+        <!-- ♡ Character Image - 300px by 300px - change URL but keep parentheses ♡ -->
+        <div class="my-2" style="background:url(INSERT URL HERE); background-position:center; height:300px; width:300px; border-radius:100em; margin:auto;">
+ 
+          <!-- ♡ Decorative Stars on Character Image ♡ -->
+          <i class="fas fa-star" style="position:relative; font-size:2.5em; left:20px; top: 30px; transform:rotate(25deg); color:#FFDEBB; text-shadow: 0px 0px 15px #AE8DBC;"></i>
+          <!-- ♡ Smaller Star w/ Credit Feature - change the text in the quotations after title= to change ♡ -->
+          <i class="fas fa-star tooltipster" style="position:relative; font-size:1.5em; left:190px; top: 240px; transform:rotate(-25deg); color:#FFDEBB; text-shadow: 0px 0px 15px #AE8DBC;" title="IMAGE CREDIT HERE"></i>
+        </div>
+ 
+        <!-- ♡ Quote Box ♡ -->
+        <div class="m-2 mx-3 p-2" style="background-color:#BFB1DF; border-radius:.5em; color: #463B5F;">
+          <p style="text-align:center; margin:0px; font-size:1.1em; font-weight:500;">
+            
+          </p>
+          <p class="px-4" style="text-align:right; font-size:.8em;">—
+            
+          </p>
+        </div>
+ 
+        <!-- ♡ Basic Information Start ♡ -->
+        <!-- ♡ Name ♡ -->
+        <div class="col-12 row no-gutters" style="align-items:center;">
+          <div class="col-auto" style="font-weight:500;text-transform:uppercase; letter-spacing:.1em; color:#8387FF">› Name</div>
+          <div class="col mx-2">
+            <hr style="border-top:1px dotted #DAD8E9;">
+          </div>
+          <div class="col-auto" style="color:#4F4C69;">placeholder</div>
+        </div>
+ 
+        <!-- ♡ Gender ♡ -->
+        <div class="col-12 row no-gutters" style="align-items:center;">
+          <div class="col-auto" style="font-weight:500;text-transform:uppercase; letter-spacing:.1em; color:#8387FF">› Gender</div>
+          <div class="col mx-2">
+            <hr style="border-top:1px dotted #DAD8E9;">
+          </div>
+          <div class="col-auto" style="color:#4F4C69;">placeholder</div>
+        </div>
+ 
+        <!-- ♡ Pronouns ♡ -->
+        <div class="col-12 row no-gutters" style="align-items:center;">
+          <div class="col-auto" style="font-weight:500;text-transform:uppercase; letter-spacing:.1em; color:#8387FF">› Pronouns</div>
+          <div class="col mx-2">
+            <hr style="border-top:1px dotted #DAD8E9;">
+          </div>
+          <div class="col-auto" style="color:#4F4C69;">placeholder</div>
+        </div>
+ 
+        <!-- ♡ Birthday ♡ -->
+        <div class="col-12 row no-gutters" style="align-items:center;">
+          <div class="col-auto" style="font-weight:500;text-transform:uppercase; letter-spacing:.1em; color:#8387FF">› Birthday</div>
+          <div class="col mx-2">
+            <hr style="border-top:1px dotted #DAD8E9;">
+          </div>
+          <div class="col-auto" style="color:#4F4C69;">placeholder</div>
+        </div>
+ 
+        <!-- ♡ Height ♡ -->
+        <div class="col-12 row no-gutters" style="align-items:center;">
+          <div class="col-auto" style="font-weight:500;text-transform:uppercase; letter-spacing:.1em; color:#8387FF">› Height</div>
+          <div class="col mx-2">
+            <hr style="border-top:1px dotted #DAD8E9;">
+          </div>
+          <div class="col-auto" style="color:#4F4C69;">placeholder</div>
+        </div>
+ 
+        <!-- ♡ Can add additional rows under here ♡ -->
+ 
+      </div>
+    </div>
+ 
+    <!-- ♡ Second Info Column ♡ -->
+    <div class="col-lg-7 p-1" style="display:flex; flex-flow:column;">
+ 
+      <!-- ♡ Likes + Dislikes Container ♡ -->
+      <div class="p-3 mb-2 col" style="background-color:#E9DFFF; border-radius:1em; flex: 0 1 ;">
+        <div class=row>
+          <!-- ♡ Likes ♡ -->
+          <div class="col-6">
+            <p style="text-align:center; font-weight:600; letter-spacing:.3em; text-transform: uppercase; margin-bottom:8px; font-size: 1.1em; color:#8387FF;">
+              Likes
+            </p>
+ 
+            <ul style="font-size:.9em; margin-bottom:0px; color:#4F4C69;">
+              <li class="mb-1">Item one</li>
+              <li class="mb-1">Item two</li>
+              <li class="mb-1">Item three</li>
+              <li class="mb-1">Item four</li>
+              <li class="mb-1">Item five</li>
+              <!-- ♡ Can add more bullets under here ♡ -->
+ 
+            </ul>
+          </div>
+ 
+          <!-- ♡ Dislikes ♡ -->
+          <div class="col-6">
+            <p style="text-align:center; font-weight:600; letter-spacing:.3em; text-transform: uppercase; margin-bottom:8px; font-size: 1.1em; color:#8387FF;">
+              Dislikes
+            </p>
+            <ul style="font-size:.9em; margin-bottom:0px; color:#4F4C69;">
+              <li class="mb-1">Item one</li>
+              <li class="mb-1">Item two</li>
+              <li class="mb-1">Item three</li>
+              <li class="mb-1">Item four</li>
+              <li class="mb-1">Item five</li>
+              <!-- ♡ Can add more bullets under here ♡ -->
+ 
+            </ul>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- ♡ Changing Container ♡ -->
+      <div class="tab-content p-3 col" style="background-color:#E9DFFF; border-radius:1em; flex: 1 1 auto; ">
+ 
+        <!-- ♡ Personality ♡ -->
+        <div class="tab-pane fade active show" data-toggle="tab" id="personality">
+          <div class="row no-gutters" style="justify-content:space-between; align-items:baseline;">
+            <!-- ♡ Personality FA Icon - keep the style if you change the icon ♡ -->
+            <i class="fas fa-moon-stars" style="font-size: 1.3em; color:#8387FF;"></i>
+            <p class="mr-2" style="text-align:center; font-weight:600; letter-spacing:.3em; text-transform: uppercase; margin-bottom:8px; font-size: 1.1em; color:#8387FF;">
+              Personality
+            </p>
+          </div>
+          <hr class="mb-4" style="margin-top: 5px; border-top: 1px dotted #DAD8E9;">
+          <div class="row no-gutters mx-5" style="font-size: 1.1em; letter-spacing:.05em; font-weight:500; justify-content: space-evenly; align-items:baseline; flex-wrap:wrap; line-height:10px; color:#523447">
+ 
+            <!-- ♡ Traits ♡ -->
+            <p>trait</p>
+            <i class="fas fa-star" style="font-size:.6em; color:#DAD8E9; margin-left:10px; margin-right:10px;"></i>
+            <p>trait</p>
+            <i class="fas fa-star" style="font-size:.6em; color:#DAD8E9; margin-left:10px; margin-right:10px;"></i>
+            <p>trait</p>
+            <i class="fas fa-star" style="font-size:.6em; color:#DAD8E9; margin-left:10px; margin-right:10px;"></i>
+            <p>trait</p>
+          </div>
+ 
+          <!-- ♡ Personality Content ♡ -->
+          <div class="mt-2" style="color:#4F4C69;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit porttitor, elementum eros blandit, vestibulum est. Donec commodo neque eget nibh finibus varius. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur tristique porttitor nibh, efficitur lacinia odio posuere id. Mauris non ullamcorper tortor, nec elementum nulla. Suspendisse hendrerit felis a ligula bibendum, quis auctor ipsum pulvinar. Integer nulla neque, fermentum quis erat id, ullamcorper commodo ex.</p>
+            <p>Quisque sed accumsan odio, vitae elementum urna. Aenean et iaculis sem. Mauris rhoncus tristique sem suscipit faucibus.</p>
+            <!-- ♡ Can add more paragraph tags under here ♡ -->
+ 
+          </div>
+        </div>
+ 
+        <!-- ♡ Overview/Miscellaneous ♡ -->
+        <div class="tab-pane fade" data-toggle="tab" id="overview">
+          <div class="row no-gutters" style="justify-content:space-between; align-items:baseline;">
+            <!-- ♡ Overview/Misc FA Icon - keep the style if you change the icon ♡ -->
+            <i class="far fa-rocket" style="font-size: 1.3em; color:#8387FF;"></i>
+            <p class="mr-2" style="text-align:center; font-weight:600; letter-spacing:.3em; text-transform: uppercase; margin-bottom:8px; font-size: 1.1em; color:#8387FF;">
+              <!-- ♡ Overview/Misc Title - feel free to pick one/the other or change this! ♡ -->
+              Overview | Miscellaneous
+            </p>
+          </div>
+          <hr style="margin-top: 5px; border-top: 1px dotted #DAD8E9;">
+ 
+          <div style="color:#4F4C69;">
+            <!-- ♡ Optional paragraph starts here ♡ -->
+            <p>
+              Proin porttitor non leo at scelerisque. Sed nec dolor vitae mauris elementum laoreet quis eget nulla. Integer consectetur congue enim. Nulla odio arcu, lacinia luctus sapien eget, dictum volutpat massa. Aenean ut varius leo. Ut porta quam mi, non semper massa congue eleifend. Duis eu dolor condimentum, vehicula nisl vitae, vestibulum arcu. Aliquam vel magna porta, imperdiet ipsum sed, faucibus est. Phasellus ut pretium massa.
+            </p>
+            <!-- ♡ Optional paragraph ends here ♡ -->
+ 
+            <!-- ♡ Optional list starts Here ♡ -->
+            <ul style="margin-bottom:0px; margin-top:10px; color:#4F4C69;">
+              <li class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li class="mb-1">Aenean enim libero, posuere eget orci a, ultrices congue lorem. Suspendisse tincidunt velit ullamcorper ex luctus posuere.</li>
+              <li class="mb-1">Donec imperdiet id libero ac feugiat.</li>
+              <li class="mb-1">Nunc facilisis lectus velit, id pharetra arcu iaculis vel. Vestibulum vel volutpat diam. Ut convallis tincidunt elit sed viverra.</li>
+            </ul>
+            <!-- ♡ Optional list ends here ♡ -->
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- ♡ Changing Container Buttons ♡ -->
+<div style="margin:0px; padding:0px;">
+  <ul class="nav" style="justify-content:center; font-size:1.2em;">
+    <li class="nav-item">
+      <a class="nav-link tooltipster" title="Personality" data-toggle="tab" href="#personality" style="color:#8387FF;">
+        <!-- ♡ Personality Icon ♡ -->
+        <i class="fas fa-moon-stars"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link tooltipster" title="Overview" data-toggle="tab" href="#overview" style="color:#8387FF;">
+        <!-- ♡ Overview Icon ♡ -->
+        <i class="far fa-rocket"></i>
+      </a>
+    </li>
+  </ul>
+</div>

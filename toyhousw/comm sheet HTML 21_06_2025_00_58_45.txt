@@ -1,0 +1,461 @@
+    
+<!-----------------------
+ 
+ column - BOOTSTRAP COLORS
+
+!!!! remember not to enable wysiwyg at any time; it'll most likely break/recode the code!!!!!
+ 
+    TERMS OF SERVICE
+ 
+ ✓ feel free to edit/frankenstein my codes as much as u want, as long as credit remains and the other coder/s allows it
+ ✓ optional but i would rlly appreciate if u donated to my deviantart or paypal if you use my codes!!
+ × don’t remove credit. u can move it around, but please make sure it is visible
+ × don’t steal or redistribute my codes (including edited versions)
+ × don't use my codes to make a profit (e.g. selling code template "fill-outs")
+ 
+    NOTES
+    
+ › this uses bootstrap colors
+ › i recommend using https://th.circlejourney.net/ (by https://toyhou.se/circlejourney) to edit the code since it's a live code editor
+ › to remove the animating stripes, remove "progress-bar-striped progress-bar-animated"
+ 
+ › replace any image addresses that say "https://f2.toyhou.se/file/f2-toyhou-se/users/admin?7"
+ › replace any places that say "LINK_HERE" with links
+ 
+ ------------------------>
+
+<!-- nav bar -->
+
+<div class="row bg-faded p-1" style="position: fixed; top: 0; z-index: 10; width: 100%;">
+  <a class="col-auto text-body" href="#top">back to top</a>
+  <a class="col-auto text-body" href="#whatidraw">what i draw</a>
+  <a class="col-auto text-body" href="#termsofservice">terms of service</a>
+  <a class="col-auto text-body" href="#icon">icon/bust</a>
+  <a class="col-auto text-body" href="#halfbody">halfbody</a>
+  <a class="col-auto text-body" href="#fullbody">fullbody</a>
+  <a class="col-auto text-body" href="#customs">customs</a>
+   <a class="col-auto text-body" href="#extras">extras</a>
+  <a class="col-auto text-body" href="#orderform">order form</a>
+</div>
+
+<!-- END nav bar -->
+
+ <!-- comms open title -->
+
+<div class="mb-3 display-3 text-white text-center text-uppercase mx-auto py-3 progress-bar-striped progress-bar-animated bg-primary" style="width: 320px; border-radius: 10px; text-shadow: 0px 0px 5px rgba(255,255,255,0.3); box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+    
+    comms open
+    
+</div>
+
+ <!-- END comms open title -->
+
+ <!-- info box -->
+
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 400px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+    
+ <!-- comms blurb -->
+    
+    <div class="p-3 mb-2 text-left mx-auto bg-faded" style="border-radius: 10px;">
+        
+ <!-- accepting payment -->
+        
+    <p class="text-info text-center">
+       <span class="small text-uppercase text-muted" style="letter-spacing: 1px;">  accepting    —   </span> paypal | kofi 
+    </p>
+    
+ <!-- END accepting payment -->
+    
+    <hr class="m-2">
+    all prices are in usd & may vary based on the complexity of the piece! let me know if you'd like to see different examples of something specific, or if you'd like something not specifically offered here :)
+    <hr>
+    if you're interested, please feel free to dm me here on toyhouse! from there, i'll be happy to continue discussing your commission on a different site; preferably discord, but instagram or twitter are also options :)
+    <hr>
+    <p style="color:#f54281">turnaround times are usually within 2 weeks for one piece! please expect longer turnaround for more pieces.</p>
+
+
+
+    </div>
+    
+ <!-- END comms blurb -->
+
+ <!-- what i draw -->
+        
+<div class="mb-2 p-3 text-center mx-auto bg-faded" style="border-radius: 10px;" id="whatidraw">
+    
+    <p class="text-uppercase">
+        what i draw
+    </p>
+    
+    <hr class="m-2">
+    
+    <div class="row mx-1">
+    
+    <ul class="fa-ul text-success mb-1 mx-auto">
+        <li><span class="fa-li"> <i class="small fas fa-check"></i></span> original characters </li>
+        <li><span class="fa-li"> <i class="small fas fa-check"></i></span> furry/anthro </li>
+        <li><span class="fa-li"> <i class="small fas fa-check"></i></span> fanart </li>
+        <li><span class="fa-li"> <i class="small fas fa-check"></i></span> minor gore </li>
+        <li><span class="fa-li"> <i class="small fas fa-check"></i></span> weapons & armor </li>
+        <li><span class="fa-li"> <i class="small fas fa-check"></i></span> nsfw (18+ commissioners only) </li>
+
+
+        
+    </ul>
+    
+    <ul class="fa-ul text-danger mb-1 mx-auto">
+        <li><span class="fa-li"> <i class="small fas fa-times"></i></span> racist/sexist/homophobic content</li>
+        <li><span class="fa-li"> <i class="small fas fa-times"></i></span> incest or pedophilia</li>
+        <li><span class="fa-li"> <i class="small fas fa-times"></i></span> any other harmful or unethical themes </li>
+    </ul>
+    
+    </div>
+    
+ </div>
+ 
+ <!-- END what i draw -->
+
+ <!-- terms of service -->
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;" id="termsofservice">
+    
+    <p class="text-uppercase">
+        terms of service
+    </p>
+    
+    <hr class="m-2">
+    
+    <ul class="fa-ul text-left text-muted mb-1">
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> you may use my art for streaming, websites, avatars, device wallpapers, and so on! PLEASE credit me if used for any social media accounts including streaming sites like twitch or youtube! </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> you may create physical reproductions of the art as long as it is for personal use only, no selling my art without permission! </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> PAYMENTS WILL BE TAKEN BEFORE AND AFTER - 50% OF THE PAYMENT ONCE INITIAL SKETCH IS MADE, OTHER 50% AFTER FINAL PRODUCT IS DELIVERED. </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span>No refunds will be made once a piece is in progress. If there are delays for any reason, I will let you know!
+ </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> for my full tos, click <a href="https://toyhou.se/~bulletins/2316520.commission-tos">here</a> </li>
+    </ul>
+    
+    </div>
+    
+ <!-- END terms of service -->
+    
+</div>
+
+ <!-- END info box -->
+
+ <!-- example title -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="icon">
+     
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    icon / bust
+    </h1>
+    
+    <span class="text-body bg-faded px-2 p-1 rounded" style="">
+        <p>please let me know if you'd prefer an icon instead of a bust - they're priced the same :)</p>
+        sketch — $ 10 <br>
+        flat — $ 15 <br>
+        full color — $ 20 <br>
+        
+    </span>
+    
+    </div>
+</div>
+
+ <!-- END example title -->
+ 
+ <!-- examples box -->
+ 
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+<div class="p-3 text-left mx-auto bg-faded" style="border-radius:10px;">
+            
+    <div class="row mb-3">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/characters/29950867?1750370011" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/29950867?1750370011" class="rounded" style="width: 200px; height: 200px; object-fit: contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/characters/30617994?1750204539" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/characters/30617994?1750204539" class="rounded" style="width: 200px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/92642902_wGFVkf04ddmSoyH.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/92642902_wGFVkf04ddmSoyH.png" class="rounded" style="width: 200px; height: 200px; object-fit:contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/102277526_ATsOEjh2Uv0vmmx.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/102277526_ATsOEjh2Uv0vmmx.png" class="rounded" style="width: 200px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+ <!-- END examples box -->
+
+ <!-- example title -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 320px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="halfbody">
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    halfbody
+    </h1>
+    
+    <span class="text-body bg-faded px-2 p-1 rounded" style="">
+        sketch — $ 15 <br>
+        flat — $ 25 <br>
+        full color — $ 30 <br>
+    </span>
+    
+    </div>
+</div>
+
+ <!-- END example title -->
+ 
+ <!-- examples box -->
+ 
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+<div class="p-3 text-left mx-auto bg-faded" style="border-radius:10px;">
+            
+    <div class="row mb-3">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/102202659_i3H7UZL0Ui4qPaX.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/102202659_i3H7UZL0Ui4qPaX.png" class="rounded" style="width: 200px; height: 200px; object-fit: contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/101954749_Yy6EKTZiz3U1jaN.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/101954749_Yy6EKTZiz3U1jaN.png" class="rounded" style="width: 200px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    </div>
+    
+</div>
+
+ <!-- END examples box -->
+ 
+  <!-- example title -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="fullbody">
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    fullbody
+    </h1>
+    
+    <span class="text-body bg-faded px-2 p-1 rounded" style="">
+        sketch — $ 20 <br>
+        flat — $ 25 <br>
+        full color — $45  <br>
+        chibi (full color) — $25
+    </span>
+    
+    </div>
+</div>
+
+ <!-- END example title -->
+ 
+ <!-- examples box -->
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+<div class="p-3 text-left mx-auto bg-faded" style="border-radius:10px;">
+            
+    <div class="row mb-3">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/92647230_NozfkDVNTujDehw.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/92647230_NozfkDVNTujDehw.png" class="rounded" style="width: 200px; height: 200px; object-fit: contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/92643158_GD1WSmh5fdtgNm7.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/92643158_GD1WSmh5fdtgNm7.png" class="rounded" style="width: 200px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/94402964_sys63FGc23mn90C.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/94402964_sys63FGc23mn90C.png" class="rounded" style="width: 200px; height: 200px; object-fit:contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/93184830_IKfVkDw03IqWF4u.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/93184830_IKfVkDw03IqWF4u.png" class="rounded" style="width: 200px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+ <!-- END examples box -->
+ 
+ 
+  <!-- example title -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="example4">
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    (pwyw) sketchpages
+    </h1>
+    
+    <span class="text-body bg-faded px-2 p-1 rounded" style="">
+        minimum 3 sketches for the min price!<br> pay more, get more!<br>
+        <p style="color:#f54281">add color for an extra $5!</p>
+        min price — $10
+    </span>
+    
+    </div>
+</div>
+
+ <!-- END example title -->
+ 
+ <!-- examples box -->
+ 
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 600px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+<div class="p-3 text-left mx-auto bg-faded" style="border-radius:10px;">
+            
+    <div class="row">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/102278199_wFdMCLfEeYdUGQz.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/102278199_wFdMCLfEeYdUGQz.png" class="rounded" style="width: 300px; height: 200px; object-fit: contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/102278291_AVMwjsO3FY8CCF4.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/102278291_AVMwjsO3FY8CCF4.png" class="rounded" style="width: 300px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+ <!-- END examples box -->
+ 
+ 
+  <!-- example title -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="customs">
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    customs/reference sheets
+    </h1>
+    
+    <span class="text-body bg-faded px-2 p-1 rounded" style="">
+        done in flat color, <p style="color:#f54281"> or +$5 for some light rendering!</p>
+        1 view — $25<br>2 views — $35 <br> 3 views — $40
+    </span>
+    
+    </div>
+</div>
+
+ <!-- END example title -->
+ 
+ <!-- examples box -->
+ 
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+<div class="p-3 text-left mx-auto bg-faded" style="border-radius:10px;">
+            
+    <div class="row mb-3">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/101954672_agnoj9cKlbiFAQu.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/101954672_agnoj9cKlbiFAQu.png" class="rounded" style="width: 200px; height: 250px; object-fit: contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/101954694_olLbLa1fPuo8Xwg.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/101954694_olLbLa1fPuo8Xwg.png" class="rounded" style="width: 400px; height: 250px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/102102140_nqx8k7PH3rcmaqt.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/102102140_nqx8k7PH3rcmaqt.png" class="rounded" style="width: 400px; height: 250px; object-fit:contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/102203043_LeNcX2Z1zfHjTLI.png" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/102203043_LeNcX2Z1zfHjTLI.png" class="rounded" style="width: 200px; height: 250px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+ <!-- END examples box -->
+ 
+ 
+ <!-- example title -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="extras">
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    extras
+    </h1>
+    
+    <span class="text-body bg-faded px-2 p-1 rounded" style="">
+        add these for some extra flair!<br> <p style="color:#f54281">these ADD ON to your base price!</p>
+        <br>
+        simple animation — $10 - 15<br>
+        complex background — $10<br>
+        additional characters — 50% of base price<br>
+
+    </span>
+    
+    </div>
+</div>
+
+ <!-- END example title -->
+ 
+ <!-- examples box -->
+ 
+<div class="mb-3 p-2 text-left mx-auto bg-faded progress-bar-striped progress-bar-animated" style="width: 500px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);">
+<div class="p-3 text-left mx-auto bg-faded" style="border-radius:10px;">
+            
+    <div class="row mb-3">
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/93755871_8vuBlP3DXnBUzlc.gif?1736135670" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/93755871_8vuBlP3DXnBUzlc.gif?1736135670" class="rounded" style="width: 200px; height: 200px; object-fit: contain ; "> </a>
+        </div>
+        <div class="col-6">
+            <a href="https://f2.toyhou.se/file/f2-toyhou-se/images/93754485_sSOvtY8Vrfz7jb3.gif" target="_blank"> <img src="https://f2.toyhou.se/file/f2-toyhou-se/images/93754485_sSOvtY8Vrfz7jb3.gif" class="rounded" style="width: 200px; height: 200px; object-fit: contain; "> </a>
+        </div>
+    </div>
+    
+</div>
+</div>
+
+ <!-- END examples box -->
+ 
+ 
+ 
+ <!-- order form -->
+
+<div class="mb-3 p-2 mx-auto bg-primary progress-bar-striped progress-bar-animated" style="width: 320px; border-radius: 10px; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.3);" id="orderform">
+    
+    <div class="p-3 text-center mx-auto bg-faded" style="border-radius: 10px;">
+        
+    <h1 class="text-uppercase">
+    order form
+    </h1>
+    
+    <div class="text-body small">
+        To make it easier for both of us, you can also attach a filled out version of this form with your inquiry (either on toyhouse or other social) if you believe it would help. not required though!
+    </div>
+    
+    <hr class="m-2">
+    
+    <div class="row mx-1">
+    
+    <ul class="fa-ul text-info mb-1 mx-auto">
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> username </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> type </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> composition requests<br>(poses, expressions - description/image)</li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> character(s) </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> deadline (na if none) </li>
+        <li><span class="fa-li"> <i class="small fas fa-caret-right"></i></span> additional requests </li>
+
+        
+    </ul>
+    
+    </div>
+    
+    </div>
+</div>
+
+ <!-- END order form -->
+ 
+ <!-- credit -->
+ 
+ <div class="text-center" style="margin-top: -5px;">
+     <a href="https://toyhou.se/9441459.f2u-column-commission-code" target="_blank"><i class=" text-muted far fa-feather-pointed tooltipster" title="code by teiyoq"></i></a>
+ </div>
+ 
+ <!-- END credit -->
+    
