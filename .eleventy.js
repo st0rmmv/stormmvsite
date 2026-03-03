@@ -1,13 +1,13 @@
 module.exports = function(eleventyConfig) {
-  // Copy static files to _site without modifying them
-  eleventyConfig.addPassthroughCopy("*.html");    // copies all HTML files
-  eleventyConfig.addPassthroughCopy("style.css"); // copies your CSS
-  eleventyConfig.addPassthroughCopy("images");    // copies your images folder
+  // Copy static files to _site
+  eleventyConfig.addPassthroughCopy("*.html");      // all HTML files
+  eleventyConfig.addPassthroughCopy("style.css");   // your CSS
+  eleventyConfig.addPassthroughCopy("icons");       // your icons folder
 
   return {
     dir: {
-      input: ".",    // read files from project root
-      output: "_site" // build output goes here
+      input: ".",      // source files are in the root
+      output: "_site"  // Eleventy builds here
     }
   };
 };
