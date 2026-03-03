@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("*.html");      // all HTML files
   eleventyConfig.addPassthroughCopy("style.css");   // your CSS
   eleventyConfig.addPassthroughCopy("icons");       // your icons folder
+eleventyConfig.addPassthroughCopy("gamesimage");       // your icons folder
 
   return {
     dir: {
