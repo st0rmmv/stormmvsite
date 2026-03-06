@@ -16,20 +16,20 @@
 /* Variables are used like this: var(--text-color) */
 :root {
   /* BG Colors: */
-  background: #0d0204;
+  background: #45051a;
   /*--background-color: #490f0f;*/
-  --content-background-color: #820b27;
-  --sidebar-background-color: #64001b;
+  --content-background-color: #210e13;
+  --sidebar-background-color: #64002b;
 
   /* Text*/
-  --text-color: #ffedf1;
-  --sidebar-text-color: #ff7474;
-  --link-color: #ffd633;
+  --text-color: #f3bb77;
+  --sidebar-text-color: #ff74a0;
+  --link-color: #ff7199;
   --link-color-hover: #ff82a6;
 
   --font: 'Pixel Times', sans-serif;
   --heading-font: 'Pixel Times', sans-serif;
-  --font-size: 15px;
+  --font-size: 14px;
 
   /* Other Settings: */
   --margin: 20px;
@@ -66,7 +66,7 @@ body {
   font-family: var(--font);
   line-height: 1.2;
   background: var(--background-color);
-  background-image:  linear-gradient(0deg,rgba(13, 2, 4, 1) 0%, rgba(73, 15, 15, 1) 100%);
+  background-image:  linear-gradient(0deg,rgb(43, 4, 41) 0%, rgb(73, 15, 28) 100%);
   
 }
 
@@ -596,6 +596,13 @@ main h6 {
   overflow: hidden;
 }
 
+.center {
+  display: block;
+  margin: 0 auto; 
+  max-width: 100%;
+  height: auto;
+}
+
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
@@ -632,8 +639,8 @@ main h6 {
 
 #statuscafe {
     padding: .5em;
-    background-color: rgb(113, 22, 37);
-    border: 0px solid rgb(255, 47, 82);
+    background-color: rgb(78, 12, 37);
+    border: 0px solid rgb(90, 36, 45);
 }
 #statuscafe-username {
     margin-bottom: .5em;
